@@ -16,7 +16,7 @@ $ npm install ng2woo --save
 
 ## Usage
 
-Import woo-wrapper in any Angular application by running:
+Import ng2woo in any Angular application by running:
 
 ```bash
 $ npm install ng2woo --save
@@ -26,7 +26,7 @@ and then from your Angular `AppModule`:
 
 ```typescript
 ...
-// Import WaNG
+// Import ng2woo
 import { WooApiModule, WooApiService } from 'ng2woo';
 
 // Add your WooCommerce Credentials
@@ -39,14 +39,14 @@ const WooCommerceConfig = {
 };
 
 @NgModule({
-  declarations: [...],
+  declarations: [ ... ],
   imports: [
     ...
     // Specify as an import and pass in your config
     WooApiModule.forRoot(WooCommerceConfig)
   ],
-  // Add the Api service to the provider
-  providers: [WooApiService]
+  // Add the Api service
+  providers: [ WooApiService ]
 })
 export class AppModule { }
 ```
@@ -55,7 +55,7 @@ Once ng2woo is imported, you can use the `WooApiService`:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-// Import the services
+// Import the service
 import { WooApiService } from 'ng2woo';
 
 
