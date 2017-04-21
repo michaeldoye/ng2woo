@@ -4,7 +4,6 @@ Angular2+ wrapper for the WooCommerce API
 Please note this library is not yet pubished or active, it is currently being developed. Visit the [Discord Channel](https://discord.gg/xyUdZKh) if you have an idea or feature request for this project.
 
 [![GitHub version](https://badge.fury.io/gh/michaeldoye%2FWaNG.svg)](https://badge.fury.io/gh/michaeldoye%2FWaNG)
-[![Build Status](https://travis-ci.org/michaeldoye/WaNG.svg?branch=master)](https://travis-ci.org/michaeldoye/WaNG)
 [![dependencies Status](https://david-dm.org/michaeldoye/WaNG/status.svg)](https://david-dm.org/michaeldoye/WaNG)
 [![GitHub issues](https://img.shields.io/github/issues/michaeldoye/WaNG.svg)](https://github.com/michaeldoye/woo-wrapper/WaNG)
 [![Discord Chat](https://img.shields.io/badge/Discord-Chat-blue.svg)](https://discord.gg/xyUdZKh)
