@@ -1,7 +1,5 @@
-# WaNG (In development)
-Angular2+ wrapper for the WooCommerce API
-
-Please note this library is not yet pubished or active, it is currently being developed. Visit the [Discord Channel](https://discord.gg/xyUdZKh) if you have an idea or feature request for this project.
+# ng2woo 
+Very simple Angular2+ wrapper for the WooCommerce API
 
 [![GitHub version](https://badge.fury.io/gh/michaeldoye%2FWaNG.svg)](https://badge.fury.io/gh/michaeldoye%2FWaNG)
 [![dependencies Status](https://david-dm.org/michaeldoye/WaNG/status.svg)](https://david-dm.org/michaeldoye/WaNG)
@@ -53,7 +51,7 @@ const WooCommerceConfig = {
 export class AppModule { }
 ```
 
-Once woo-wrapper is imported, you can use the `WooApiService`:
+Once ng2woo is imported, you can use the `WooApiService`:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
