@@ -1,5 +1,5 @@
 {
-  "name": "wang",
+  "name": "ng2woo",
   "version": "0.1.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
