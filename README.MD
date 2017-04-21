@@ -13,7 +13,7 @@ Please note this library is not yet pubished or active, it is currently being de
 To install this library, run:
 
 ```bash
-$ npm install woo-wrapper --save (not yet published)
+$ npm install ng2woo --save
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ $ npm install woo-wrapper --save (not yet published)
 Import woo-wrapper in any Angular application by running:
 
 ```bash
-$ npm install woo-wrapper (not yet published)
+$ npm install ng2woo --save
 ```
 
 and then from your Angular `AppModule`:
@@ -29,7 +29,7 @@ and then from your Angular `AppModule`:
 ```typescript
 ...
 // Import WaNG
-import { WooApiModule, WooApiService } from 'woo-wrapper';
+import { WooApiModule, WooApiService } from 'ng2woo';
 
 // Add your WooCommerce Credentials
 const WooCommerceConfig = {
@@ -58,7 +58,7 @@ Once woo-wrapper is imported, you can use the `WooApiService`:
 ```typescript
 import { Component, OnInit } from '@angular/core';
 // Import the services
-import { WooApiService } from 'woo-wrapper';
+import { WooApiService } from 'ng2woo';
 
 
 @Component({...})
