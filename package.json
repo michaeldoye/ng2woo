@@ -1,6 +1,6 @@
 {
   "name": "ng2woo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
