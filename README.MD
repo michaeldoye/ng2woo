@@ -11,7 +11,7 @@ Very simple Angular2+ wrapper for the WooCommerce API
 Import ng2woo in any Angular application by running:
 
 ```bash
-$ npm install --save ng2woo
+$ npm install --save ng2woo@beta
 ```
 
 Install the WooCommerce API:
