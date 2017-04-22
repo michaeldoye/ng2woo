@@ -17,7 +17,7 @@ $ npm install --save ng2woo
 Install the WooCommerce API:
 
 ```bash
-npm install --save woocommerce-api
+$ npm install --save woocommerce-api
 ```
 
 You will need to get the [WooCommerce credentials](https://woocommerce.github.io/woocommerce-rest-api-docs/#rest-api-keys) from your WooCommerce website.
