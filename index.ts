@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { WooApiService }   from './src/woocommerce.service';
 
-
 export * from './src/woocommerce.service';
 
 

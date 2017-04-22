@@ -6,14 +6,6 @@ Very simple Angular2+ wrapper for the WooCommerce API
 [![GitHub issues](https://img.shields.io/github/issues/michaeldoye/WaNG.svg)](https://github.com/michaeldoye/woo-wrapper/WaNG)
 [![Discord Chat](https://img.shields.io/badge/Discord-Chat-blue.svg)](https://discord.gg/xyUdZKh)
 
-## Installation
-
-To install this library, run:
-
-```bash
-$ npm install --save ng2woo
-```
-
 ## Usage
 
 Import ng2woo in any Angular application by running:
@@ -22,11 +14,15 @@ Import ng2woo in any Angular application by running:
 $ npm install --save ng2woo
 ```
 
+Install the WooCommerce API:
+
 ```bash
 npm install --save woocommerce-api
 ```
 
-and then from your Angular `AppModule`:
+You will need to get the [WooCommerce credentials](https://woocommerce.github.io/woocommerce-rest-api-docs/#rest-api-keys) from your WooCommerce website.
+
+Then from your Angular `AppModule`:
 
 ```typescript
 ...
@@ -55,7 +51,7 @@ const WooCommerceConfig = {
 export class AppModule { }
 ```
 
-Once ng2woo is imported, you can use the `WooApiService`:
+Once ng2woo is imported, you can use the `WooApiService` in your components/services:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
@@ -88,11 +84,12 @@ export class HomePage implements OnInit {
 - Accepts: `string` (_required_) - the type of WooCommerce item you want to fetch (_products, orders, customers, categories_). Accepts query parameters, see the [WooCommerce Api docs](https://woocommerce.github.io/woocommerce-rest-api-docs) for a full list of query parameters.
 - Returns: `Promise`
 
-**Example**
+**Examples**
 
 ```typescript
 this.woo.fetchItems('products')
-  .then(products => console.log(products));
+  .then(products => console.log(products))
+  .catch(error => console.log(error));
 ```
 
 
